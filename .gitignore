@@ -1,0 +1,117 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+.TODO.html
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+.env.sentry-build-plugins
+.env
+.cache/
+.code-workspace
+.coverage*
+.DS_Store
+.venv
+*.egg-info
+*.pyc
+*.log
+*.egg
+*.db
+*.pid
+test.conf
+pip-log.txt
+celerybeat-schedule
+sentry-package.json
+/.artifacts
+/coverage/
+/cover
+/build
+/dist
+/env
+/tmp
+node_modules
+/src/sentry/apidocs/api_ownership_stats_dont_modify.json
+/src/sentry/assets.json
+/src/sentry/static/version
+/src/sentry/static/sentry/dist/
+/src/sentry/static/sentry/vendor/
+/src/sentry/static/sentry/admin/
+/src/sentry/static/sentry/rest_framework/
+/src/sentry/integration-docs
+/src/sentry/loader/_registry.json
+/config/chartcuterie/config.js*
+/config/*.pem
+/tests/apidocs/openapi-derefed.json
+/tests/apidocs/openapi-deprecated.json
+/tests/sentry/utils/appleconnect/*.json
+/tests/apidocs/openapi-spectacular.json
+/fixtures/integrations/*/data/**
+/wheelhouse
+/test_cli/
+Gemfile.lock
+.idea/
+.vim/
+*.swo, *.swp
+*.iml
+.pytest_cache/
+.vscode/tags
+.vscode/bookmarks.json
+coverage.xml
+junit.xml
+*.codestyle.xml
+.webpack.meta
+pip-wheel-metadata/
+Brewfile.lock.json
+import-graph.txt
+import-graph.dot
+bin/rrweb-output
+model-manifest.json
+.mypy_cache
+.devenv
+.yalc/
+yalc.lock
+ngrok.yml
+package-lock.json
+yarn.lock
+docker-compose.override.yml
+*.log
+/.docker/
+/.github/
+
