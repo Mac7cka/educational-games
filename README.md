@@ -11,10 +11,6 @@ Built with React, Node.js, and TailwindCSS, the app features beautiful pastel-co
 
 ![Intro](./screenshots/intro.png)
 
-![English Game](./screenshots/english.png)
-
-![Pexeso Game](./screenshots/pexeso.png)
-
 ## ✨ Features
 
 **🎴 Pexeso (Memory Game)**
